@@ -5,6 +5,7 @@ window.onload = function () {
     effect : 'fade',
     pagination: {
       el: '#mainBanner .swiper-pagination',
+      clickable: true
     },
     navigation: {
       nextEl: '#mainBanner .swiper-button-next',
