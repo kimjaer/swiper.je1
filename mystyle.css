@@ -80,8 +80,23 @@
   height: 25px;
   font-size: 18px;
   padding: 0;
-  align-items: center;
+  line-height: 1px;
+  margin: 10px;
 }
+
+#mainBanner .swiper-button-next:after,
+#mainBanner .swiper-button-prev:after {
+  color: white;
+}
+
+/* #mainBanner .bi bi-pause ::before {
+  content: "\F4F4";
+  
+} */
+
+/* #mainBanner .bi bi-pause :hover::before {
+  content: "\F4C3";
+} */
 
 .bg0 {
   background-image: url(https://www.cj.co.kr/cj_files/main/visual/202309/1693899949661_0.jpg);
