@@ -1,0 +1,38 @@
+/* 배경처리 : 찌그러지지않게 처리 */
+#mainBanner .swiper-slide {
+  height: 0;
+  padding-top: 43%;
+  /* width 100% 조건이 내장되어야 한다. */
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.bg0 {
+  background-image: url(https://www.cj.co.kr/cj_files/main/visual/202309/1693899949661_0.jpg);
+
+}
+
+.bg1 {
+  background-image: url(https://www.cj.co.kr/cj_files/main/visual/201901/1546929273425_0.jpg);
+
+}
+
+.bg2 {
+  background-image: url(https://www.cj.co.kr/cj_files/main/visual/201901/1546928897582_0.jpg);
+
+}
+
+.bg3 {
+  background-image: url(https://www.cj.co.kr/cj_files/main/visual/202308/1692251347164_0.jpg);
+
+}
+
+/* .d-flex {
+  display: flex;
+}
+.abs {
+  position: absolute;
+}
+.p-unset {
+  position: unset;
+} */
