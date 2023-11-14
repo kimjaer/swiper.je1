@@ -76,12 +76,16 @@
   background-color: transparent;
   color: white;
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  font-size: 18px;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.2em; /*em은 자기 기준으로 커지는거임*/
   padding: 0;
   line-height: 1px;
   margin: 10px;
+}
+
+#mainBanner .toggle .on::before {
+  content: "\F4F4";
 }
 
 #mainBanner .swiper-button-next:after,
@@ -116,4 +120,28 @@
 .bg3 {
   background-image: url(https://www.cj.co.kr/cj_files/main/visual/202308/1692251347164_0.jpg);
 
+}
+#mainBanner {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.realIndex0 {
+  background-color: red;
+}
+
+.realIndex1 {
+  background-color: orange;
+}
+
+.realIndex2 {
+  background-color: yellow;
+}
+
+.realIndex3 {
+  background-color: green;
+}
+
+.realIndex4 {
+  background-color: blue;
 }
